@@ -1,0 +1,968 @@
+15:04:47 **** Build of project lab_6_software_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodOLED...
+OledDriver.c: In function 'OLED_Update':
+OledDriver.c:532:14: warning: unused variable 'icol' [-Wunused-variable]
+     int      icol;
+              ^~~~
+OledGrph.c: In function 'OLED_GetStdPattern':
+OledGrph.c:196:23: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return rgbFillPat + 8*ipat;
+            ~~~~~~~~~~~^~~~~~~~
+OledGrph.c: In function 'OLED_FillRect':
+OledGrph.c:506:9: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8  bTmp;
+         ^~~~
+OledGrph.c: In function 'OLED_GetBmp':
+OledGrph.c:612:11: warning: variable 'bTmp' set but not used [-Wunused-but-set-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c: In function 'OLED_PutBmp':
+OledGrph.c:713:11: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c:706:11: warning: unused variable 'bDsp' [-Wunused-variable]
+     u8    bDsp;
+           ^~~~
+OledGrph.c: In function 'OLED_DrawChar':
+OledGrph.c:812:11: warning: unused variable 'ib' [-Wunused-variable]
+     int   ib;
+           ^~
+OledGrph.c:811:11: warning: variable 'pbBmp' set but not used [-Wunused-but-set-variable]
+     u8   *pbBmp;
+           ^~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodRTCC...
+In file included from xiic.h:311:0,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+PmodRTCC.c: In function 'RTCC_IICInit':
+xiic_l.h:300:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:317:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodRTCC.c:97:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:98:0,
+                 from xiic.h:311,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project lab_6_software ****
+
+Nothing to build for project lab_6_software
+15:05:42 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   1176	  23512	  58688	   e540	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:05:43 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:09:53 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   1176	  23512	  58688	   e540	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:19:18 **** Clean-only build of configuration Debug for project lab_6_software ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  lab_6_software.elf.size  lab_6_software.elf
+ 
+15:19:19 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   1176	  23512	  58688	   e540	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:20:50 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:47:1: error: unknown type name 'PmodTRCC'; did you mean 'PmodRTCC'?
+ PmodTRCC myDeviceRTCC;
+ ^~~~~~~~
+ PmodRTCC
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:79:16: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    OLED_Begin(&myDevice, XPAR_PMODOLED_0_AXI_LITE_GPIO_BASEADDR,
+                ^~~~~~~~
+                myDeviceRTCC
+../src/main.c:79:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoRun':
+../src/main.c:113:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       OLED_SetFillPattern(&myDevice, pat);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c: In function 'DemoCleanup':
+../src/main.c:192:14: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    OLED_End(&myDevice);
+              ^~~~~~~~
+              myDeviceRTCC
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+15:20:59 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoInitialize':
+../src/main.c:79:16: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    OLED_Begin(&myDevice, XPAR_PMODOLED_0_AXI_LITE_GPIO_BASEADDR,
+                ^~~~~~~~
+                myDeviceRTCC
+../src/main.c:79:16: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoRun':
+../src/main.c:113:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       OLED_SetFillPattern(&myDevice, pat);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c: In function 'DemoCleanup':
+../src/main.c:192:14: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    OLED_End(&myDevice);
+              ^~~~~~~~
+              myDeviceRTCC
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+15:21:59 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:4: warning: implicit declaration of function 'DemoInitialize'; did you mean 'XIic_Initialize'? [-Wimplicit-function-declaration]
+    DemoInitialize();
+    ^~~~~~~~~~~~~~
+    XIic_Initialize
+../src/main.c: In function 'DemoRun':
+../src/main.c:113:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       OLED_SetFillPattern(&myDevice, pat);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c:113:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'DemoCleanup':
+../src/main.c:192:14: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    OLED_End(&myDevice);
+              ^~~~~~~~
+              myDeviceRTCC
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:30:04 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:106:6: error: conflicting types for 'InitializePmods'
+ void InitializePmods(u8 mode) {
+      ^~~~~~~~~~~~~~~
+../src/main.c:106:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ void InitializePmods(u8 mode) {
+ ^~~~
+../src/main.c:83:6: note: previous declaration of 'InitializePmods' was here
+ void InitializePmods();
+      ^~~~~~~~~~~~~~~
+../src/main.c: In function 'InitializePmods':
+../src/main.c:107:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'DemoRun':
+../src/main.c:142:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       OLED_SetFillPattern(&myDevice, pat);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c:142:28: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:30:15 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:106:6: error: conflicting types for 'InitializePmods'
+ void InitializePmods(u8 mode) {
+      ^~~~~~~~~~~~~~~
+../src/main.c:106:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ void InitializePmods(u8 mode) {
+ ^~~~
+../src/main.c:83:6: note: previous declaration of 'InitializePmods' was here
+ void InitializePmods();
+      ^~~~~~~~~~~~~~~
+../src/main.c: In function 'InitializePmods':
+../src/main.c:107:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'DemoRun':
+../src/main.c:144:27: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       OLED_SetCharUpdate(&myDevice, 0);
+                           ^~~~~~~~
+                           myDeviceRTCC
+../src/main.c:144:27: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:30:21 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:106:6: error: conflicting types for 'InitializePmods'
+ void InitializePmods(u8 mode) {
+      ^~~~~~~~~~~~~~~
+../src/main.c:106:1: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+ void InitializePmods(u8 mode) {
+ ^~~~
+../src/main.c:83:6: note: previous declaration of 'InitializePmods' was here
+ void InitializePmods();
+      ^~~~~~~~~~~~~~~
+../src/main.c: In function 'InitializePmods':
+../src/main.c:107:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'DemoRun':
+../src/main.c:149:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+          OLED_ClearBuffer(&myDevice);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c:149:28: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:34:22 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:149:28: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+          OLED_ClearBuffer(&myDevice);
+                            ^~~~~~~~
+                            myDeviceRTCC
+../src/main.c:149:28: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:36:38 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:135:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:135:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39980	   1224	  23624	  64828	   fd3c	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:43:08 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:140:11: warning: implicit declaration of function 'GetTime' [-Wimplicit-function-declaration]
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c:140:9: error: incompatible types when assigning to type 'RTCC_Time {aka struct RTCC_Time}' from type 'int'
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+         ^
+../src/main.c:138:14: warning: variable 'time' set but not used [-Wunused-but-set-variable]
+    RTCC_Time time;
+              ^~~~
+../src/main.c:135:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:135:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+15:45:31 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:140:11: warning: implicit declaration of function 'GetTime' [-Wimplicit-function-declaration]
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c:140:9: error: incompatible types when assigning to type 'RTCC_Time {aka struct RTCC_Time}' from type 'int'
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+         ^
+../src/main.c:138:14: warning: variable 'time' set but not used [-Wunused-but-set-variable]
+    RTCC_Time time;
+              ^~~~
+../src/main.c:135:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:135:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c: At top level:
+../src/main.c:205:11: error: conflicting types for 'GetTime'
+ RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src) {
+           ^~~~~~~
+../src/main.c:140:11: note: previous implicit declaration of 'GetTime' was here
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c: In function 'GetTime':
+../src/main.c:209:33: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+       val.second = RTCC_getSec(&myDevice, src);
+                                 ^~~~~~~~
+                                 myDeviceRTCC
+../src/main.c:209:33: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+15:46:08 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:140:11: warning: implicit declaration of function 'GetTime' [-Wimplicit-function-declaration]
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c:140:9: error: incompatible types when assigning to type 'RTCC_Time {aka struct RTCC_Time}' from type 'int'
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+         ^
+../src/main.c:138:14: warning: variable 'time' set but not used [-Wunused-but-set-variable]
+    RTCC_Time time;
+              ^~~~
+../src/main.c:135:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:135:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c: At top level:
+../src/main.c:205:11: error: conflicting types for 'GetTime'
+ RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src) {
+           ^~~~~~~
+../src/main.c:140:11: note: previous implicit declaration of 'GetTime' was here
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c: In function 'GetTime':
+../src/main.c:212:30: error: 'myDevice' undeclared (first use in this function); did you mean 'myDeviceRTCC'?
+    val.minute = RTCC_getMin(&myDevice, src);
+                              ^~~~~~~~
+                              myDeviceRTCC
+../src/main.c:212:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+15:46:32 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:140:11: warning: implicit declaration of function 'GetTime' [-Wimplicit-function-declaration]
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+../src/main.c:140:9: error: incompatible types when assigning to type 'RTCC_Time {aka struct RTCC_Time}' from type 'int'
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+         ^
+../src/main.c:138:14: warning: variable 'time' set but not used [-Wunused-but-set-variable]
+    RTCC_Time time;
+              ^~~~
+../src/main.c:135:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:135:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c: At top level:
+../src/main.c:205:11: error: conflicting types for 'GetTime'
+ RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src) {
+           ^~~~~~~
+../src/main.c:140:11: note: previous implicit declaration of 'GetTime' was here
+    time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+           ^~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+15:48:55 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:141:14: warning: variable 'time' set but not used [-Wunused-but-set-variable]
+    RTCC_Time time;
+              ^~~~
+../src/main.c:138:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:138:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40364	   1224	  23624	  65212	   febc	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:56:23 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:161:47: warning: passing argument 1 of 'strcat' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, strcat(weekdays[time.day],time.date));
+                                               ^~~~~~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'const char *'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:161:66: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(weekdays[time.day],time.date));
+                                                                  ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:163:47: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(time.hour,time.minute,time.second,time.ampm));
+                                               ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:163:57: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(time.hour,time.minute,time.second,time.ampm));
+                                                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:163:40: error: too many arguments to function 'strcat'
+          OLED_PutString(&myDeviceOLED, strcat(time.hour,time.minute,time.second,time.ampm));
+                                        ^~~~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: declared here
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:139:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:139:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+make: *** [src/main.o] Error 1
+15:56:49 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:161:47: warning: passing argument 1 of 'strcat' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, strcat(weekdays[time.day],time.date));
+                                               ^~~~~~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'const char *'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:161:66: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(weekdays[time.day],time.date));
+                                                                  ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:163:47: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(time.hour,time.minute));
+                                               ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:163:57: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, strcat(time.hour,time.minute));
+                                                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:139:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:139:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40712	   1224	  23624	  65560	  10018	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+15:58:51 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:146:4: error: unknown type name 'String'; did you mean 'stdin'?
+    String hourMin = str(time.hour,)
+    ^~~~~~
+    stdin
+In file included from ../../lab_6_software_bsp/ps7_cortexa9_0/include/xpseudo_asm.h:67:0,
+                 from ../../lab_6_software_bsp/ps7_cortexa9_0/include/xil_io.h:70,
+                 from ../../lab_6_software_bsp/ps7_cortexa9_0/include/xspi_l.h:76,
+                 from ../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:32,
+                 from ../src/main.c:36:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:198:23: error: expected expression before '__asm__'
+ #define str(adr, val) __asm__ __volatile__(\
+                       ^
+../src/main.c:146:21: note: in expansion of macro 'str'
+    String hourMin = str(time.hour,)
+                     ^~~
+../src/main.c:163:40: warning: passing argument 2 of 'OLED_PutString' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, weekdays[time.day]);
+                                        ^~~~~~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'const char *'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:165:40: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, time.date);
+                                        ^~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'u8 {aka unsigned char}'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:167:10: error: too few arguments to function 'OLED_PutString'
+          OLED_PutString(&myDeviceOLED)
+          ^~~~~~~~~~~~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: declared here
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:170:10: error: expected ';' before 'OLED_MoveTo'
+          OLED_MoveTo(&myDeviceOLED, 0, irow);
+          ^~~~~~~~~~~
+../src/main.c:146:11: warning: unused variable 'hourMin' [-Wunused-variable]
+    String hourMin = str(time.hour,)
+           ^~~~~~~
+../src/main.c:139:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:139:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+16:03:38 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:146:4: error: unknown type name 'String'; did you mean 'stdin'?
+    String str1 = strcat(time.hour,":");
+    ^~~~~~
+    stdin
+../src/main.c:146:25: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str1 = strcat(time.hour,":");
+                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:146:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    String str1 = strcat(time.hour,":");
+                  ^~~~~~
+../src/main.c:147:4: error: unknown type name 'String'; did you mean 'stdin'?
+    String str2 = strcat(str1,time.minute);
+    ^~~~~~
+    stdin
+../src/main.c:147:25: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str2 = strcat(str1,time.minute);
+                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'int'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:147:30: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str2 = strcat(str1,time.minute);
+                              ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:147:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    String str2 = strcat(str1,time.minute);
+                  ^~~~~~
+../src/main.c:148:4: error: unknown type name 'String'; did you mean 'stdin'?
+    String str3 = strcat(str2,":");
+    ^~~~~~
+    stdin
+../src/main.c:148:25: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str3 = strcat(str2,":");
+                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'int'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:148:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    String str3 = strcat(str2,":");
+                  ^~~~~~
+../src/main.c:149:4: error: unknown type name 'String'; did you mean 'stdin'?
+    String str4 = strcat(str3, time.second);
+    ^~~~~~
+    stdin
+../src/main.c:149:25: warning: passing argument 1 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str4 = strcat(str3, time.second);
+                         ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'char * restrict' but argument is of type 'int'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:149:31: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+    String str4 = strcat(str3, time.second);
+                               ^~~~
+In file included from /usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdio.h:29:0,
+                 from ../src/main.c:34:
+/usr/local/xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/string.h:26:8: note: expected 'const char * restrict' but argument is of type 'u8 {aka unsigned char}'
+ char  *_EXFUN(strcat,(char *__restrict, const char *__restrict));
+        ^
+../src/main.c:149:18: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+    String str4 = strcat(str3, time.second);
+                  ^~~~~~
+../src/main.c:166:40: warning: passing argument 2 of 'OLED_PutString' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, weekdays[time.day]);
+                                        ^~~~~~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'const char *'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:168:40: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, time.date);
+                                        ^~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'u8 {aka unsigned char}'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:170:39: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED,str4);
+                                       ^~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'int'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:139:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:139:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+16:04:55 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:163:40: warning: passing argument 2 of 'OLED_PutString' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, weekdays[time.day]);
+                                        ^~~~~~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'const char *'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:165:40: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, time.date);
+                                        ^~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'u8 {aka unsigned char}'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:139:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:139:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40264	   1224	  23624	  65112	   fe58	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
+16:05:30 **** Auto Build of configuration Debug for project lab_6_software ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:163:40: warning: passing argument 2 of 'OLED_PutString' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+          OLED_PutString(&myDeviceOLED, weekdays[time.day]);
+                                        ^~~~~~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'const char *'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:165:40: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
+          OLED_PutString(&myDeviceOLED, time.date);
+                                        ^~~~
+In file included from ../src/main.c:36:0:
+../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'u8 {aka unsigned char}'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_6_software.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_6_software.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40264	   1224	  23624	  65112	   fe58	lab_6_software.elf
+Finished building: lab_6_software.elf.size
+ 
