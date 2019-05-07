@@ -1,0 +1,230 @@
+/******************************************************************************/
+/*                                                                            */
+/* main.c -- Demo project for the PmodOLED IP with PmodRTCC IP                */
+/*                                                                            */
+/******************************************************************************/
+/* Author: Joseph Shenouda                                                    */
+/******************************************************************************/
+/* File Description:                                                          */
+/*                                                                            */
+/* This project initializes and uses the PmodOLED and PmodRTCC 				  */
+/*  to display time a date data over to the PmodOLED from the PmodRTCC        */
+/*                                                                            */
+/******************************************************************************/
+/* Revision History:                                                          */
+/*                                                                            */
+/*    06/20/2016(ArtVVB):   Created                                           */
+/*    12/15/2016(jPeyron):  Edited for better use for OnboardOLED in, as well */
+/*                          as inverting the white and black                  */
+/*    08/25/2017(ArtVVB):   Added proper cache management functions           */
+/*    02/17/2018(atangzwj): Validated for Vivado 2017.4                       */
+/*                                                                            */
+/******************************************************************************/
+/* Baud Rates:                                                                */
+/*                                                                            */
+/*    Microblaze: 9600 or what was specified in UARTlite core                 */
+/*    Zynq: 115200                                                            */
+/*                                                                            */
+/******************************************************************************/
+
+/* ------------------------------------------------------------ */
+/*                  Include File Definitions                    */
+/* ------------------------------------------------------------ */
+
+#include <stdio.h>
+#include<string.h>
+#include "PmodOLED.h"
+#include "PmodRTCC.h"
+#include "sleep.h"
+#include "xil_cache.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+/*-------------------------------------------------------------*/
+/*					Type Declaration						   */
+/*-------------------------------------------------------------*/
+
+// Struct containing each field of the RTCC's time registers represented in
+// 8-bit binary coded decimal - 0x30 in the minute field represents 30 minutes.
+typedef struct RTCC_Time {
+   u8 second;
+   u8 minute;
+   u8 hour;
+   u8 ampm;
+   u8 day;
+   u8 date;
+   u8 month;
+   u8 year;
+} RTCC_Time;
+/* ------------------------------------------------------------ */
+/*                  Global Variables                            */
+/* ------------------------------------------------------------ */
+
+PmodOLED myDeviceOLED;
+PmodRTCC myDeviceRTCC;
+
+// Which weekday starts this array is arbitrary, as long as it stays the same
+// when you set and read the day
+const char *weekdays[7] = {
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+};
+
+
+
+/* ------------------------------------------------------------ */
+/*                  Forward Declarations                        */
+/* ------------------------------------------------------------ */
+
+void InitializePmods();
+void DemoRun();
+void DemoCleanup();
+
+RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src);
+
+
+
+// To change between PmodOLED and OnBoardOLED is to change Orientation
+const u8 orientation = 0x0; // Set up for Normal PmodOLED(false) vs normal
+                            // Onboard OLED(true)
+const u8 invert = 0x0; // true = whitebackground/black letters
+                       // false = black background /white letters
+
+/* ------------------------------------------------------------ */
+/*                  Function Definitions                        */
+/* ------------------------------------------------------------ */
+
+int main() {
+   InitializePmods();
+   DemoRun();
+   DemoCleanup();
+
+   return 0;
+}
+
+void InitializePmods() {
+   OLED_Begin(&myDeviceOLED, XPAR_PMODOLED_0_AXI_LITE_GPIO_BASEADDR,
+         XPAR_PMODOLED_0_AXI_LITE_SPI_BASEADDR, orientation, invert);
+
+   RTCC_begin(&myDeviceRTCC, XPAR_PMODRTCC_0_AXI_LITE_IIC_BASEADDR, 0x6F);
+
+
+
+}
+
+/* ------------------------------------------------------------ */
+/*** DemoRun()
+**
+**   Parameters:
+**      none
+**
+**   Return Value:
+**      none
+**
+**   Errors:
+**      If the demo is shut down without properly exiting, does not reinitialize
+**      properly.
+**
+**   Description:
+**      Displays Demo message and each available Fill Pattern.
+**      Pauses between runs to check if user wants to continue, if not, exits.
+**      To be safe, exit through prompt before closing demo.
+**      Requires UART connection to terminal program on PC.
+*/
+void DemoRun() {
+   int irow;
+   u8 *pat;
+   char c;
+   RTCC_Time time;
+
+   time = GetTime(&myDeviceRTCC, RTCC_TARGET_RTCC);
+
+
+
+   xil_printf("UART and SPI opened for PmodOLED Demo\n\r");
+
+   while (1) {
+      xil_printf("entering loop\r\n");
+      // Choosing Fill pattern 0
+      pat = OLED_GetStdPattern(0);
+      OLED_SetFillPattern(&myDeviceOLED, pat);
+      // Turn automatic updating off
+      OLED_SetCharUpdate(&myDeviceOLED, 0);
+
+      // Draw a rectangle over writing then slide the rectangle down slowly
+      // displaying all writing
+      for (irow = 0; irow < OledRowMax; irow++) {
+             OLED_ClearBuffer(&myDeviceOLED);
+             OLED_SetCursor(&myDeviceOLED, 0, 0);
+             OLED_PutString(&myDeviceOLED, weekdays[time.day]);
+             OLED_SetCursor(&myDeviceOLED, 0, 1);
+             OLED_PutString(&myDeviceOLED, time.month);
+
+
+
+             OLED_MoveTo(&myDeviceOLED, 0, irow);
+             OLED_FillRect(&myDeviceOLED, 127, 31);
+             OLED_MoveTo(&myDeviceOLED, 0, irow);
+             OLED_LineTo(&myDeviceOLED, 127, irow);
+             OLED_Update(&myDeviceOLED);
+             usleep(100000);
+      }
+
+#ifdef __MICROBLAZE__
+      c = 'q';
+#else
+      xil_printf("(q)uit or any key to continue:\n\r");
+      c = inbyte();
+#endif
+
+      if (c == 'q' || c == 'Q')
+         break;
+   }
+   xil_printf("Exiting PmodOLED Demo\n\r");
+}
+
+void DemoCleanup() {
+   OLED_End(&myDeviceOLED);
+}
+/** RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src)
+**
+**  Parameters:
+**     InstancePtr - the target device to retrieve data from
+**     src         - RTCC_TARGET_RTCC - real-time clock
+**                   RTCC_TARGET_ALM0 - Alarm 0
+**                   RTCC_TARGET_ALM1 - Alarm 1
+**                   RTCC_TARGET_PWRD - power-down time-stamp
+**                   RTCC_TARGET_PWRU - power-up time-stamp
+**
+**  Return Value:
+**     val - the contents of all time registers in the target area
+**
+**  Description:
+**     This function retrieves the contents of one of the Pmod RTCC's time areas
+*/
+RTCC_Time GetTime(PmodRTCC *InstancePtr, RTCC_Target src) {
+   RTCC_Time val;
+
+   if (src != RTCC_TARGET_PWRD && src != RTCC_TARGET_PWRU) {
+      val.second = RTCC_getSec(&myDeviceRTCC, src);
+   }
+
+   val.minute = RTCC_getMin(&myDeviceRTCC, src);
+   val.hour   = RTCC_getHour(&myDeviceRTCC, src);
+   val.ampm   = RTCC_getAmPm(&myDeviceRTCC, src);
+   val.day    = RTCC_getDay(&myDeviceRTCC, src);
+   val.date   = RTCC_getDate(&myDeviceRTCC, src);
+   val.month  = RTCC_getMonth(&myDeviceRTCC, src);
+
+   if (src == RTCC_TARGET_RTCC) {
+      val.year = RTCC_getYear(&myDeviceRTCC);
+   } else {
+      val.year = 0;
+   }
+
+   return val;
+}

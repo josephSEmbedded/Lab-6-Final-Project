@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="lab6_block" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1556994654"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1556994654"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1556994654"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1556994654"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1557247058"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1557247058"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1557247058"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1557247058"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/lab6_block_processing_system7_0_0/lab6_block_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>

@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sat May  4 14:32:07 2019
-# Process ID: 4532
+# Start of session at: Tue May  7 12:37:44 2019
+# Process ID: 23061
 # Current directory: /home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1
 # Command line: vivado -log lab6_block_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab6_block_wrapper.tcl
 # Log file: /home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/lab6_block_wrapper.vds
@@ -18,9 +18,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4538 
+INFO: Helper process launched with PID 23066 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1323.445 ; gain = 86.891 ; free physical = 9001 ; free virtual = 27192
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1322.129 ; gain = 83.891 ; free physical = 8974 ; free virtual = 27242
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'lab6_block_wrapper' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:56]
 INFO: [Synth 8-3491] module 'IOBUF' declared at '/usr/local/xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'ja_pin10_iobuf' of component 'IOBUF' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:187]
@@ -45,35 +45,35 @@ INFO: [Synth 8-3491] module 'IOBUF' declared at '/usr/local/xilinx/Vivado/2018.2
 INFO: [Synth 8-3491] module 'IOBUF' declared at '/usr/local/xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'jb_pin7_iobuf' of component 'IOBUF' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:278]
 INFO: [Synth 8-3491] module 'IOBUF' declared at '/usr/local/xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'jb_pin8_iobuf' of component 'IOBUF' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:285]
 INFO: [Synth 8-3491] module 'IOBUF' declared at '/usr/local/xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'jb_pin9_iobuf' of component 'IOBUF' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:292]
-INFO: [Synth 8-3491] module 'lab6_block' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2366' bound to instance 'lab6_block_i' of component 'lab6_block' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:299]
-INFO: [Synth 8-638] synthesizing module 'lab6_block' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2444]
-INFO: [Synth 8-3491] module 'lab6_block_PmodOLED_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_PmodOLED_0_0_stub.vhdl:5' bound to instance 'PmodOLED_0' of component 'lab6_block_PmodOLED_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2962]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_PmodOLED_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_PmodOLED_0_0_stub.vhdl:71]
-INFO: [Synth 8-3491] module 'lab6_block_PmodRTCC_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_PmodRTCC_0_0_stub.vhdl:5' bound to instance 'PmodRTCC_0' of component 'lab6_block_PmodRTCC_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:3025]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_PmodRTCC_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_PmodRTCC_0_0_stub.vhdl:55]
-INFO: [Synth 8-3491] module 'lab6_block_processing_system7_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'lab6_block_processing_system7_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:3072]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_processing_system7_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_processing_system7_0_0_stub.vhdl:84]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_ps7_0_axi_periph_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1172]
-INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_M18292' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:99]
-INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_M18292' (2#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:99]
-INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_BO319C' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:299]
-INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_BO319C' (3#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:299]
-INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_1130KX6' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:454]
-INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_1130KX6' (4#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:454]
-INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1QCZ2JW' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:555]
-INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1QCZ2JW' (5#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:555]
-INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_F5VEN' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:656]
-INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_F5VEN' (6#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:656]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_CJ7VZB' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:780]
-INFO: [Synth 8-3491] module 'lab6_block_auto_pc_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'lab6_block_auto_pc_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:963]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_auto_pc_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_auto_pc_0_stub.vhdl:70]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_CJ7VZB' (7#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:780]
-INFO: [Synth 8-3491] module 'lab6_block_xbar_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'lab6_block_xbar_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2180]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_xbar_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_xbar_0_stub.vhdl:51]
-INFO: [Synth 8-256] done synthesizing module 'lab6_block_ps7_0_axi_periph_0' (8#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1172]
-INFO: [Synth 8-3491] module 'lab6_block_rst_ps7_0_100M_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_rst_ps7_0_100M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'lab6_block_rst_ps7_0_100M_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:3288]
-INFO: [Synth 8-638] synthesizing module 'lab6_block_rst_ps7_0_100M_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-4532-ece08/realtime/lab6_block_rst_ps7_0_100M_0_stub.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'lab6_block' (9#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2444]
+INFO: [Synth 8-3491] module 'lab6_block' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1902' bound to instance 'lab6_block_i' of component 'lab6_block' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:299]
+INFO: [Synth 8-638] synthesizing module 'lab6_block' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1980]
+INFO: [Synth 8-3491] module 'lab6_block_PmodOLED_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_PmodOLED_0_0_stub.vhdl:5' bound to instance 'PmodOLED_0' of component 'lab6_block_PmodOLED_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2502]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_PmodOLED_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_PmodOLED_0_0_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'lab6_block_PmodRTCC_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_PmodRTCC_0_0_stub.vhdl:5' bound to instance 'PmodRTCC_0' of component 'lab6_block_PmodRTCC_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2565]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_PmodRTCC_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_PmodRTCC_0_0_stub.vhdl:55]
+INFO: [Synth 8-3491] module 'lab6_block_processing_system7_0_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'lab6_block_processing_system7_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2612]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_processing_system7_0_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_processing_system7_0_0_stub.vhdl:84]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_ps7_0_axi_periph_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1001]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_M18292' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_M18292' (2#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_BO319C' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_BO319C' (3#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_1130KX6' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:279]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_1130KX6' (4#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:279]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1QCZ2JW' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:380]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1QCZ2JW' (5#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:380]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_F5VEN' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:481]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_F5VEN' (6#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:481]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_CJ7VZB' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:605]
+INFO: [Synth 8-3491] module 'lab6_block_auto_pc_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'lab6_block_auto_pc_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:788]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_auto_pc_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_auto_pc_0_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_CJ7VZB' (7#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:605]
+INFO: [Synth 8-3491] module 'lab6_block_xbar_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'lab6_block_xbar_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1716]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_xbar_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'lab6_block_ps7_0_axi_periph_0' (8#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1001]
+INFO: [Synth 8-3491] module 'lab6_block_rst_ps7_0_100M_0' declared at '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_rst_ps7_0_100M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_100M' of component 'lab6_block_rst_ps7_0_100M_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:2832]
+INFO: [Synth 8-638] synthesizing module 'lab6_block_rst_ps7_0_100M_0' [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/.Xil/Vivado-23061-ece08/realtime/lab6_block_rst_ps7_0_100M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'lab6_block' (9#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/synth/lab6_block.vhd:1980]
 INFO: [Synth 8-256] done synthesizing module 'lab6_block_wrapper' (10#1) [/home/user/Lab-6-Final-Project/Lab-6/Lab-6.srcs/sources_1/bd/lab6_block/hdl/lab6_block_wrapper.vhd:56]
 WARNING: [Synth 8-3331] design s00_couplers_imp_CJ7VZB has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_CJ7VZB has unconnected port M_ARESETN
@@ -97,74 +97,8 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_M18292 has unconnected port M_AC
 WARNING: [Synth 8-3331] design m00_couplers_imp_M18292 has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m00_couplers_imp_M18292 has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_M18292 has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_bresp[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[31]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[30]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[29]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[28]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[27]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[26]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[25]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[24]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[23]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[22]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[21]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[20]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[19]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[18]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[17]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[16]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[15]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[14]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[13]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[12]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[11]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[10]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[9]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[8]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[7]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[6]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[5]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[4]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[3]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[2]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rresp[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_bresp[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[31]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[30]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[29]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[28]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[27]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[26]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[25]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[24]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[23]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[22]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[21]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[20]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[19]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[18]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[17]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[16]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[15]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[14]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[13]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[12]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[11]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[10]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[9]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[8]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[7]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[6]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[5]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[4]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[3]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[2]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rdata[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_AXI_rresp[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.070 ; gain = 132.516 ; free physical = 9010 ; free virtual = 27201
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1367.754 ; gain = 129.516 ; free physical = 8983 ; free virtual = 27251
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -177,10 +111,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.070 ; gain = 132.516 ; free physical = 9010 ; free virtual = 27202
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1367.754 ; gain = 129.516 ; free physical = 8984 ; free virtual = 27252
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.070 ; gain = 132.516 ; free physical = 9010 ; free virtual = 27202
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1367.754 ; gain = 129.516 ; free physical = 8984 ; free virtual = 27252
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -209,16 +143,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 16 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 16 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1661.703 ; gain = 0.000 ; free physical = 8760 ; free virtual = 26952
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1660.395 ; gain = 0.000 ; free physical = 8736 ; free virtual = 27004
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8841 ; free virtual = 27032
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8815 ; free virtual = 27083
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8841 ; free virtual = 27032
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8815 ; free virtual = 27083
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -492,10 +426,10 @@ Applied set_property DONT_TOUCH = true for lab6_block_i/PmodOLED_0. (constraint 
 Applied set_property DONT_TOUCH = true for lab6_block_i/PmodRTCC_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for lab6_block_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:27 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8842 ; free virtual = 27033
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8817 ; free virtual = 27085
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8841 ; free virtual = 27032
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8816 ; free virtual = 27084
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -532,19 +466,16 @@ Start Cross Boundary and Area Optimization
 Warning: Parallel synthesis criteria is not met 
 WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_ACLK
 WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_bresp[1]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[31]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[30]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[29]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[28]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[27]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[26]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[25]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[24]
-WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M00_AXI_rdata[23]
-INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M03_ACLK
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M03_ARESETN
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M04_ACLK
+WARNING: [Synth 8-3331] design lab6_block_ps7_0_axi_periph_0 has unconnected port M04_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8841 ; free virtual = 27032
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:28 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8816 ; free virtual = 27084
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -558,13 +489,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'lab6_block_i/processing_system7_0/FCLK_CLK0' to pin 'lab6_block_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8715 ; free virtual = 26906
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:35 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26956
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8715 ; free virtual = 26906
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:35 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26956
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -576,7 +507,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:35 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8715 ; free virtual = 26906
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:35 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -600,7 +531,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -613,7 +544,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -625,25 +556,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -684,11 +615,11 @@ Report Instance Areas:
 |4     |      s00_couplers   |s00_couplers_imp_CJ7VZB       |   177|
 +------+---------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8714 ; free virtual = 26905
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8688 ; free virtual = 26955
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 76 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1661.703 ; gain = 132.516 ; free physical = 8771 ; free virtual = 26962
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 425.148 ; free physical = 8781 ; free virtual = 26972
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1660.395 ; gain = 129.516 ; free physical = 8746 ; free virtual = 27013
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1660.395 ; gain = 422.156 ; free physical = 8748 ; free virtual = 27016
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -699,11 +630,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   IOBUF => IOBUF (IBUF, OBUFT): 16 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-68 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+67 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:36 . Memory (MB): peak = 1661.703 ; gain = 436.711 ; free physical = 8756 ; free virtual = 26947
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 1660.395 ; gain = 433.719 ; free physical = 8730 ; free virtual = 26998
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/user/Lab-6-Final-Project/Lab-6/Lab-6.runs/synth_1/lab6_block_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file lab6_block_wrapper_utilization_synth.rpt -pb lab6_block_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1661.703 ; gain = 0.000 ; free physical = 8756 ; free virtual = 26947
-INFO: [Common 17-206] Exiting Vivado at Sat May  4 14:32:52 2019...
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1660.395 ; gain = 0.000 ; free physical = 8729 ; free virtual = 26997
+INFO: [Common 17-206] Exiting Vivado at Tue May  7 12:38:29 2019...

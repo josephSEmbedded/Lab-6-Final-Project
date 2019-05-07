@@ -1,38 +1,8 @@
-16:05:30 **** Auto Build of configuration Debug for project lab_6_software ****
+13:27:09 **** Incremental Build of configuration Debug for project lab_6_software ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../src/main.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_6_software_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'DemoRun':
-../src/main.c:163:40: warning: passing argument 2 of 'OLED_PutString' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
-          OLED_PutString(&myDeviceOLED, weekdays[time.day]);
-                                        ^~~~~~~~
-In file included from ../src/main.c:36:0:
-../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'const char *'
- void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
-      ^~~~~~~~~~~~~~
-../src/main.c:165:40: warning: passing argument 2 of 'OLED_PutString' makes pointer from integer without a cast [-Wint-conversion]
-          OLED_PutString(&myDeviceOLED, time.date);
-                                        ^~~~
-In file included from ../src/main.c:36:0:
-../../lab_6_software_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'u8 {aka unsigned char}'
- void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
-      ^~~~~~~~~~~~~~
-Finished building: ../src/main.c
- 
-Building target: lab_6_software.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_6_software_bsp/ps7_cortexa9_0/lib -o "lab_6_software.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: lab_6_software.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size lab_6_software.elf  |tee "lab_6_software.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  40264	   1224	  23624	  65112	   fe58	lab_6_software.elf
-Finished building: lab_6_software.elf.size
- 
+make: Nothing to be done for 'main-build'.
 
-16:05:30 Build Finished (took 312ms)
+13:27:09 Build Finished (took 261ms)
 

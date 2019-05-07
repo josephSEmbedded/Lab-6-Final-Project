@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Sat May  4 14:30:54 2019
+--Date        : Tue May  7 12:37:38 2019
 --Host        : ece08 running 64-bit Ubuntu 16.04.5 LTS
 --Command     : generate_target lab6_block_wrapper.bd
 --Design      : lab6_block_wrapper
